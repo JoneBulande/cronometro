@@ -1,0 +1,94 @@
+@font-face{
+	font-family: 'digital';
+	src: url('../fonts/DS-Digital-Italic2.ttf');;
+}
+*{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-family: 'digital';
+}
+body{
+	background-color: #124;
+}
+.container{
+	padding: 10px;
+	display: flex;
+	background: #124;
+	max-width: 400px;
+	margin: 50px auto;
+	min-height: 200px;
+	border-radius: 7px;
+	text-align: center;
+	flex-direction: column;
+	border: 1px solid #5b7769;
+}
+
+.titulo{
+	display: flex;
+	padding: 10px;
+	color: #5b7769;
+	font-size: 35px;
+	align-items: center;
+	justify-content: center;
+}
+.titulo img{
+	width: 35px;
+	margin: 0 5px;
+}
+.tempo{
+	color: #000;
+	padding: 10px;
+	font-size: 4em;
+	border-radius: 7px;
+	background: #5b7769;
+}
+.buttons{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 5px;
+	align-items: center;
+	justify-content: space-around;
+}
+.buttons .btn{
+	margin: 5px;
+	color: #5b7769;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 7px;
+	transition: all .5s;
+	background-color: #124;
+	border: 1px solid #5b7769;
+}
+.buttons .btn:hover{
+	color: #124;
+	border: 1px solid #124;
+	background-color: #5b7769;
+}
+
+@media (max-width: 500px){
+	.container{
+		margin: 0px auto;	
+	}	
+}
+
+
+
+/* footer */
+.footer{
+	bottom: 0;
+	width: 100%;
+	opacity: 0.5;
+	padding: 10px;
+	position: fixed;
+	background-color: #0a204c;
+}
+.footer p{
+	color: #ccc;
+	font-size: 1em;
+	text-align: center;
+}
