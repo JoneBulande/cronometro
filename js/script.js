@@ -1,4 +1,6 @@
-const tempo = document.querySelector('.tempo'),
+const 
+			titulo = document.querySelector('title'),
+			tempo = document.querySelector('.tempo'),
 			iniciar = document.querySelector('.iniciar'),
 			pausar = document.querySelector('.pausar'),
 			resetar = document.querySelector('.resetar');
@@ -25,7 +27,9 @@ function iniciarTempo(){
 			hor += 1;
 		}
 
-		tempo.innerText = `${hor}:${min}:${seg++}`;
+		const cron = `0${hor}:0${min}:${seg++}`;
+		tempo.innerText = cron;
+		titulo.innerText = cron;
 	},1000);
 }
 
