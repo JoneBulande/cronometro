@@ -4,8 +4,8 @@
 <p align="center">
 	projeto básico de uma cronometro que fiz, para praticar meus conhecimentos em JavasCript.
 </p>
-<h3 align="center">Tecnologias:</h3>
-<ul align="center">
+<h3>Tecnologias:</h3>
+<ul>
 	<li>Htmll5</li>
 	<li>Css3</li>
 	<li>Javascrip</li>
