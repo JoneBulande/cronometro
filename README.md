@@ -13,10 +13,10 @@
 	<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 	<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 </div>
-<h2>
-	projeto
-</h2>
 
-<p align="center">
+<div align="center">
+	<h2>
+		projeto
+	</h2>
 	<img src="https://github.com/JoneBulande/cronometro/blob/master/img/mockup.jpg">
-</p>
+</div>
