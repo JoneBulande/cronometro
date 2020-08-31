@@ -27,15 +27,16 @@ function iniciarTempo(){
 			hor += 1;
 		}
 
-		const cron = `0${hor}:0${min}:${seg++}`;
+		const cron = `${hor}:${min}:${seg++}`;
 		tempo.innerText = cron;
 		titulo.innerText = cron;
 	},1000);
 }
 
 function pausarTempo(){
-	iniciar.removeAttribute('disabled', '');
+	iniciar.removeAttribute('disabled');
 	clearInterval(timer);
 }
 function resetarTempo(){
+	location.reload();
 }
